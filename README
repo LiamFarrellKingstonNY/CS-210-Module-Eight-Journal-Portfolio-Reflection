@@ -20,8 +20,7 @@ Challenges and How I Overcame Them
 The most challenging part was getting the compound-interest loop logic correct for monthly versus yearly calculations. I overcame this by writing detailed pseudocode 
 
 Pseudocode
-
-, testing with small data sets, and verifying results against an online compound-interest calculator. I also used debug output to confirm intermediate balances.
+testing with small data sets, and verifying results against an online compound-interest calculator. I also used debug output to confirm intermediate balances.
 Resources that helped me include cplusplus.com, Stack Overflow, and SNHU’s ZyBooks examples.
 
 Transferable Skills
