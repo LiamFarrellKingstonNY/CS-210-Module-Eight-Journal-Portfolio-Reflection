@@ -1,0 +1,48 @@
+CS 210 Module Eight Journal – Portfolio Reflection
+Project Summary
+
+For this project, I developed a C++ financial analysis program that reads input data from a file, processes it using custom functions and loops, and outputs formatted results. The goal was to demonstrate file I/O operations, variable handling, loops, and functions—core skills for building functional and efficient C++ programs. This program solved the problem of organizing and analyzing raw data automatically, replacing manual calculations with a reliable, repeatable solution.
+
+What I Did Well
+
+I wrote readable, well-commented code that followed consistent style conventions (e.g., Google C++ Style Guide). I also implemented strong input validation and clear output formatting, which made the results easy to interpret. My use of modular functions kept the program organized and allowed each task—such as reading files, performing calculations, and displaying data—to be independently tested and maintained.
+
+Possible Enhancements
+
+If I were to improve this code, I would add error-handling routines for corrupted or missing files and expand the program to accept command-line arguments for greater flexibility. These improvements would make the code more secure, user-friendly, and adaptable to larger data sets. I would also explore encapsulating key features in classes to improve scalability and reuse.
+
+Challenges and How I Overcame Them
+
+The most challenging part was debugging file I/O logic—particularly ensuring that data was read correctly without skipping lines or duplicating output. I overcame this by using the debugger in my IDE (Visual Studio Code) and testing with multiple data files. I also relied on documentation from Cplusplus.com and examples from the course to verify proper syntax and logic.
+
+To strengthen my support network, I now rely on the C++ reference library, Stack Overflow, and my GitHub repository as both a collaboration and version-control tool.
+
+Transferable Skills
+
+This project helped me build skills that directly apply to future coursework and professional projects, including:
+
+Writing modular, maintainable C++ code
+
+Applying file handling and data parsing
+
+Practicing secure coding habits and error checking
+
+Using GitHub for version control and collaboration
+
+Communicating technical concepts clearly through code comments and documentation
+
+Maintaining Readability and Adaptability
+
+I ensured maintainability through:
+
+Consistent indentation and naming conventions
+
+Inline and block comments explaining logic and assumptions
+
+Modular structure using separate functions and files
+
+Error handling and validation to prevent crashes
+
+Clear output formatting for better user experience
+
+These choices align with professional C++ style guides and ethical coding practices (e.g., clarity, responsibility, and avoidance of harm through careless errors). The result is code that any developer can easily understand, modify, and extend.
