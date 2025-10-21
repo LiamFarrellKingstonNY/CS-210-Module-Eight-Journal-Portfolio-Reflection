@@ -1,0 +1,33 @@
+Airgead Banking Investment Calculator – Pseudocode
+--------------------------------------------------
+
+1. Display program title.
+2. Prompt for:
+     - Initial investment
+     - Monthly deposit
+     - Annual interest rate
+     - Number of years
+3. Validate inputs (must be positive).
+4. Create Investment object with user values.
+5. Pause until user presses Enter.
+
+6. Display "Balance and Interest Without Additional Monthly Deposits":
+     - Set totalBalance = initialInvestment.
+     - For each year:
+         - interestEarned = totalBalance * (annualInterest / 100)
+         - totalBalance += interestEarned
+         - Output year, totalBalance, interestEarned
+
+7. Display "Balance and Interest With Additional Monthly Deposits":
+     - Reset totalBalance = initialInvestment.
+     - For each year:
+         - Set interestEarnedYear = 0
+         - For each month:
+             - monthlyInterest = (totalBalance + monthlyDeposit) * (annualInterest / 100 / 12)
+             - totalBalance += monthlyDeposit + monthlyInterest
+             - interestEarnedYear += monthlyInterest
+         - Output year, totalBalance, interestEarnedYear
+
+8. Ask user if they want to try again.
+9. If Y/y, repeat; else display "Program Finished."
+End.
