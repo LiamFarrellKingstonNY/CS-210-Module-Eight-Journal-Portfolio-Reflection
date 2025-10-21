@@ -1,48 +1,56 @@
-CS 210 Module Eight Journal – Portfolio Reflection
-Project Summary
+Project: Airgead Banking Investment Calculator
 
-For this project, I developed a C++ financial analysis program that reads input data from a file, processes it using custom functions and loops, and outputs formatted results. The goal was to demonstrate file I/O operations, variable handling, loops, and functions—core skills for building functional and efficient C++ programs. This program solved the problem of organizing and analyzing raw data automatically, replacing manual calculations with a reliable, repeatable solution.
+Summary
+This C++ program calculates the growth of an investment over time, both with and without additional monthly deposits. The user inputs the initial investment amount, monthly deposit, annual interest rate, and number of years. The program then generates a clear year-by-year report showing the balance and earned interest for both scenarios. It automates financial projections that would otherwise require complex manual calculations.
 
 What I Did Well
+I structured the program using object-oriented design (Investment class) and modular functions for clarity. I also implemented input validation to prevent invalid or negative entries and formatted the output tables for professional readability. The final results precisely match expected compound-interest values.
 
-I wrote readable, well-commented code that followed consistent style conventions (e.g., Google C++ Style Guide). I also implemented strong input validation and clear output formatting, which made the results easy to interpret. My use of modular functions kept the program organized and allowed each task—such as reading files, performing calculations, and displaying data—to be independently tested and maintained.
+Areas for Improvement
+If I enhanced this project, I would add:
 
-Possible Enhancements
+File I/O features to load and save scenarios automatically.
 
-If I were to improve this code, I would add error-handling routines for corrupted or missing files and expand the program to accept command-line arguments for greater flexibility. These improvements would make the code more secure, user-friendly, and adaptable to larger data sets. I would also explore encapsulating key features in classes to improve scalability and reuse.
+Input sanitization for edge cases (e.g., very large values).
+
+A graphical output or chart showing growth over time for better visualization.
+These updates would improve efficiency, security, and user experience.
 
 Challenges and How I Overcame Them
+The most challenging part was getting the compound-interest loop logic correct for monthly versus yearly calculations. I overcame this by writing detailed pseudocode 
 
-The most challenging part was debugging file I/O logic—particularly ensuring that data was read correctly without skipping lines or duplicating output. I overcame this by using the debugger in my IDE (Visual Studio Code) and testing with multiple data files. I also relied on documentation from Cplusplus.com and examples from the course to verify proper syntax and logic.
+Pseudocode
 
-To strengthen my support network, I now rely on the C++ reference library, Stack Overflow, and my GitHub repository as both a collaboration and version-control tool.
+, testing with small data sets, and verifying results against an online compound-interest calculator. I also used debug output to confirm intermediate balances.
+Resources that helped me include cplusplus.com, Stack Overflow, and SNHU’s ZyBooks examples.
 
 Transferable Skills
 
-This project helped me build skills that directly apply to future coursework and professional projects, including:
+Object-oriented programming (C++)
 
-Writing modular, maintainable C++ code
+Algorithm design and pseudocode planning
 
-Applying file handling and data parsing
+Modular function development and debugging
 
-Practicing secure coding habits and error checking
+Financial modeling logic (compound interest)
 
-Using GitHub for version control and collaboration
-
-Communicating technical concepts clearly through code comments and documentation
+Using GitHub for version control and documentation
 
 Maintaining Readability and Adaptability
+I followed consistent naming conventions, clear indentation, and in-line documentation following the Google C++ Style Guide
+. Each function performs one clear task, making the code easy to test, reuse, and maintain.
+Future developers can easily adapt this calculator for other financial scenarios, such as mortgages or retirement planning.
 
-I ensured maintainability through:
+Repository Contents
 
-Consistent indentation and naming conventions
+main.cpp — handles program flow and user input
 
-Inline and block comments explaining logic and assumptions
+Investment.cpp / Investment.h — class handling interest and balance logic
 
-Modular structure using separate functions and files
+Pseudocode.txt — planning and algorithm documentation 
 
-Error handling and validation to prevent crashes
+Pseudocode
 
-Clear output formatting for better user experience
+Screenshots/ — sample outputs verifying correct calculations
 
-These choices align with professional C++ style guides and ethical coding practices (e.g., clarity, responsibility, and avoidance of harm through careless errors). The result is code that any developer can easily understand, modify, and extend.
+README.md — this reflection file
